@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="main">
+        <div class="heads">
+        <h1>Expense tracker</h1>
+        <h2>Balance</h2>
+        <h3>$<span id="blc">0.0</span></h3>
+    </div>
+    <div class="inc" > income
+        <br>  <h4 >
+            
+            $<span id="tinc">0.0</span>
+        
+        
+        
+        </h4>
+      
+    </div>
+    <div class="exp">expense
+        <br>
+       <h4>
+           
+        $<span id="texp">0.0</span>
+    
+    </h4>
+    </div>
+    <div class="transhistory">
+        <h5>transition history</h5>
+        <div id="list" class="history">
+
+
+
+
+
+        </div>
+   
+    <p>Add new transition</p>
+</div>
+<br/><br/>
+    <div class="inputs">
+        
+        <label>Enter Description</label>
+
+        <input type="text" name="text" id="income" ><br>
+        <label>Enter Amount</label>
+        <input type="text" name="text"  id="amount" ><br>
+        <br/><br/>
+        <input type="submit" name="Add income" value="Add income" onclick="incadd()">
+        <input type="submit" name="Add Expense" value="Add Expense" onclick="expense()">
+    </div>
+
+    </div>
+  <script src="java.js"></script>  
+</body>
+</html>
